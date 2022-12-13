@@ -20,7 +20,7 @@ fs.readFile(`${__dirname}/../data/challenge-8-test.txt`, "utf-8").then(
 
       //from right
       visibleTrees += visibleTreesFromLeft;
-      console.log(visibleTrees);
     });
+    console.log(grid);
   }
 );
